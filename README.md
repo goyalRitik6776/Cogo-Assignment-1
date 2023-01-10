@@ -1,3 +1,5 @@
+DEPLOYED LINK --> https://cogoport-assignment-1.vercel.app/
+
 # Cogoport Academy - Problem set 1 - HTML & CSS Basic Website
 
 Create a replica of https://www.cogoport.com/ first page (no need to create any other pages linked). Following are the test cases you will have to pass in order to complete the problem set:
