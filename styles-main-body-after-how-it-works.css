@@ -1,6 +1,5 @@
 
 .industries-served{
-    /* padding: 16px!important; */
     padding: 16px;
     margin-bottom: 50px;
     background: #fffef3;
@@ -15,7 +14,7 @@
 .signup-inner-container{
     display: flex;
     align-items: center;
-    padding: 16px 100px!important;
+    padding: 16px 100px;
 }
 .signup-left-half{
     display: flex;
@@ -106,7 +105,7 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    border: 1px solid #dedede;
+    border: 1px solid #fbdc00;
     font-size: 14px;
     font-weight: 700;
     border-radius: 5px;

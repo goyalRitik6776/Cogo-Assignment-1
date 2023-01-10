@@ -27,7 +27,7 @@
     line-height: 1.2;
     margin-bottom: 20px;
     margin-top: 0;
-    font-weight: bold;
+    font-weight: 1000;
     color: #000;
     font-family: "Ubuntu",sans-serif;
 
@@ -112,10 +112,11 @@
     line-height: 1.2;
     margin-top: 0;
     color: black;
-    font-family: sans-serif;
+    font-family: "Ubuntu",sans-serif;
+    font-weight: bold;
 }
 .our-products-upper-half-left-half p{
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 0;
     margin-bottom: 1em;
     color:#434343;

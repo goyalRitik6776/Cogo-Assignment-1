@@ -69,6 +69,8 @@ h3{
     display: flex;
     align-items: center;
     margin-left: 40px;
+    font-family: "Ubuntu",sans-serif;
+    font-weight: bold;
     cursor: pointer;
 }
 .navbar-item:hover{
@@ -90,6 +92,7 @@ h3{
     display: flex;
     align-items: center;
     cursor: pointer;
+    font-weight: bold;
 }
 .navbar-signup{
     background: red;
@@ -139,12 +142,13 @@ h3{
     margin-left: -9px;
 }
 .individual-link{
-    margin: 8px;
+    margin: 5px;
 }
 .special-link{
     color: black;
     font-weight: bold;
-    margin-bottom: 1em;
+    font-family: "Ubuntu",sans-serif;
+    padding: 8px 0px;
 }
 .empty-space{
     display: block;
@@ -167,6 +171,7 @@ h3{
 .port-item{
     cursor: pointer;
     line-height: 2rem;
+    color: black;
 }
 .port-item:hover{
     font-weight: 700;
