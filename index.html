@@ -1,12 +1,706 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <title>Cogoport - Book & Manage Shipments & Cargo Online</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css" />
+   
+    <link rel="icon" type="image/png" href="https://www.cogoport.com/favicon-16x16.png"/>
+  </head>
+  <body style="min-width: fit-content;">
+    <header>
+      <div class="navbar">
+        <div class="navbar-cogoport-logo">
+          <img src="/assets/cogoport-logo.svg" alt="cogoport-logo">
+        </div>
+        <div class="navbar-items-container">
+          <div class="navbar-item">
+            <span>Products</span>
+            <img src="/assets/navbar-arrow.svg" alt="">
+          </div>
+          <div class="navbar-item">
+            <span>Partners</span>
+            <img src="/assets/navbar-arrow.svg" alt="">
+          </div>
+          <div class="navbar-item">
+            <span>Company</span>
+            <img src="/assets/navbar-arrow.svg" alt="">
+          </div>
+          <div class="navbar-item">
+            <span>Knowledge Center</span>
+            <img src="/assets/navbar-arrow.svg" alt="">
+          </div>
+          <div class="navbar-item">
+            <span>Contact Us</span>
+          </div>
+        </div>
+        <div class="navbar-login-signup-container">
+          <div class="navbar-login">
+            <img src="/assets/navbar-login.svg" style="margin-right: 5px;" alt="">
+            login
+          </div>
+          <button class="navbar-signup">Sign Up</button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="getStarted">
+          <div class="inner1">
+            <div class="leftOfInner1">
+              <div class="text">Grow Faster, Go Global.</div>
+              <p>
+                Strengthen your Supply Chain, and Scale your Business<br />with
+                Reliable Shipping and Cashflows.
+              </p>
+              <div class="button">Get Started</div>
+            </div>
+            <img
+              src="https://cdn.cogoport.io/cms-prod/vault/original/home-banner-image1.webp"
+              alt="image"
+              style="height: 500px"
+            />
+          </div>
+        </div>
+        <div class="numbers">
+          <div class="inner2">
+            <div class="smallInfo">
+              <div class="text1"><span>110</span>+</div>
+              <div class="text2">Countries Served</div>
+            </div>
+            <div class="smallInfo">
+              <div class="text1">8,000</div>
+              <div class="text2">Ports Pairs Served</div>
+            </div>
+            <div class="smallInfo">
+              <div class="text1">12,500</div>
+              <div class="text2">Tons of Air Cargo Moved</div>
+            </div>
+            <div class="smallInfo">
+              <div class="text1">500,000</div>
+              <div class="text2">Containers Moved</div>
+            </div>
+          </div>
+        </div>
+        <div class="ourProducts">
+          <div class="upperHalf">
+            <div class="leftHalf">
+              <h2 class="bigText">One Stop Solution for Your Supply Chain</h2>
+              <p class="smallText">
+                Connected Shipping, Finance, and Trade-tech, to Power Global
+                Trade and Supply Chains.
+              </p>
+            </div>
+            <div class="rightHalf">
+              <img
+                src="https://cdn.cogoport.io/cms-prod/vault/original/map-supply-chain.png"
+                alt="image"
+              />
+            </div>
+          </div>
+          <div class="lowerHalf">
+            <h3 class="heading">Our Products</h3>
+            <div class="outerContainer">
+              <div class="cardContainer">
+                <div class="card">
+                  <h4 class="cardHeading">End to End Cross Border Logistics</h4>
+                  <div class="multipleCards">
+                    <a href="#" style="text-decoration: none">
+                      <div class="card-member">
+                        <img src="/assets/cards/ocean-fcl.svg" alt="">
+                        <h4 class="card-member-heading">Ocean: FCL</h4>
+                        <div class="find-out-more">
+                          <div style="margin-right: 4px">Find Out More</div>
+                          <img src="/assets/red-arrow.svg" alt="">
+                        </div>
+                      </div>
+                    </a>
+                    <a href="#" style="text-decoration: none">
+                        <div class="card-member">
+                          <img src="/assets/cards/ocean-lcl.svg" alt="">
+                          <h4 class="card-member-heading">Ocean: LCL</h4>
+                          <div class="find-out-more">
+                            <div style="margin-right: 4px">Find Out More</div>
+                            <img src="/assets/red-arrow.svg" alt="">
+                          </div>
+                        </div>
+                      </a>
+                      <a href="#" style="text-decoration: none">
+                        <div class="card-member">
+                          <img src="/assets/cards/int-air.svg" alt="">
+                          <h4 class="card-member-heading">International Air</h4>
+                          <div class="find-out-more">
+                            <div style="margin-right: 4px">Find Out More</div>
+                            <img src="/assets/red-arrow.svg" alt="">
+                          </div>
+                        </div>
+                      </a>
+                      <a href="#" style="text-decoration: none">
+                        <div class="card-member">
+                          <img src="/assets/cards/customs.svg" alt="">
+                          <h4 class="card-member-heading">Customs, CFS, & Handling</h4>
+                          <div class="find-out-more">
+                            <div style="margin-right: 4px">Find Out More</div>
+                            <img src="/assets/red-arrow.svg" alt="">
+                          </div>
+                        </div>
+                      </a>
+                  </div>
+                </div>
+                <div class="card">
+                  <h4 class="cardHeading">Domestic Logistics</h4>
+                  <div class="multipleCards">
+                    <a href="#" style="text-decoration: none">
+                        <div class="card-member">
+                          <img src="/assets/cards/ftl-ptl.svg" alt="">
+                          <h4 class="card-member-heading">FTL, PTL</h4>
+                          <div class="find-out-more">
+                            <div style="margin-right: 4px">Find Out More</div>
+                            <img src="/assets/red-arrow.svg" alt="">
+                          </div>
+                        </div>
+                      </a>
+                      <a href="#" style="text-decoration: none">
+                        <div class="card-member">
+                          <img src="/assets/cards/trailer.svg" alt="">
+                          <h4 class="card-member-heading">Trailer & Rail <br>Container Haulage</h4>
+                          <div class="find-out-more">
+                            <div style="margin-right: 4px">Find Out More</div>
+                            <img src="/assets/red-arrow.svg" alt="">
+                          </div>
+                        </div>
+                      </a>
+                  </div>
+                </div>
+                <div class="card">
+                  <h4 class="cardHeading">Supply Chain Solutions</h4>
+                  <div class="multipleCards">
+                    <a href="#" style="text-decoration: none">
+                        <div class="card-member">
+                          <img src="/assets/cards/cogo-assured.svg" alt="">
+                          <h4 class="card-member-heading">CogoAssured</h4>
+                          <div class="find-out-more">
+                            <div style="margin-right: 4px">Find Out More</div>
+                            <img src="/assets/red-arrow.svg" alt="">
+                          </div>
+                        </div>
+                      </a>
+                      <a href="#" style="text-decoration: none">
+                        <div class="card-member">
+                          <img src="/assets/cards/domestic-fulfilment.svg" alt="">
+                          <h4 class="card-member-heading">Domestic Fulfilment</h4>
+                          <div class="find-out-more">
+                            <div style="margin-right: 4px">Find Out More</div>
+                            <img src="/assets/red-arrow.svg" alt="">
+                          </div>
+                        </div>
+                      </a>
+                      <a href="#" style="text-decoration: none">
+                        <div class="card-member">
+                          <img src="/assets/cards/door-to-door.svg" alt="">
+                          <h4 class="card-member-heading">Door to Door Shipments</h4>
+                          <div class="find-out-more">
+                            <div style="margin-right: 4px">Find Out More</div>
+                            <img src="/assets/red-arrow.svg" alt="">
+                          </div>
+                        </div>
+                      </a>
+                  </div>
+                </div>
+                <div class="card">
+                  <h4 class="cardHeading">Financial Services</h4>
+                  <div class="multipleCards">
+                    <a href="#" style="text-decoration: none">
+                        <div class="card-member">
+                          <img src="/assets/cards/paylater.svg" alt="">
+                          <h4 class="card-member-heading">Pay Later</h4>
+                          <div class="find-out-more">
+                            <div style="margin-right: 4px">Find Out More</div>
+                            <img src="/assets/red-arrow.svg" alt="">
+                          </div>
+                        </div>
+                      </a>
+                      <a href="#" style="text-decoration: none">
+                        <div class="card-member">
+                          <img src="/assets/cards/export-factoring.svg" alt="">
+                          <h4 class="card-member-heading">Export Factoring</h4>
+                          <div class="find-out-more">
+                            <div style="margin-right: 4px">Find Out More</div>
+                            <img src="/assets/red-arrow.svg" alt="">
+                          </div>
+                        </div>
+                      </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="brands">
+          <h3 class="heading">Trusted by</h3>
+          <div class="marquee">
+            <div class="marquee-first-half">
+              <img
+                src="https://cdn.cogoport.io/cms-prod/vault/original/ais-logo-1.webp"
+                alt="ais-logo"
+              />
+              <img
+                src="https://cdn.cogoport.io/cms-prod/vault/original/jsw-logo-new.webp"
+                alt="jsw-logo"
+              />
+              <img
+                src="https://cdn.cogoport.io/cms-prod/vault/original/bombay-dyeing-logo-1.webp"
+                alt="bombay-dyeing-logo"
+              />
+              <img
+                src="https://cdn.cogoport.io/cms-prod/vault/original/air-asia-logo-1.webp"
+                alt="air-asia-logo"
+              />
+              <img
+                src="https://cdn.cogoport.io/cms-prod/vault/original/tvs-logo-1.webp"
+                alt="tws-logo"
+              />
+              <img
+                src="https://cdn.cogoport.io/cms-prod/vault/original/voltas-logo-1.webp"
+                alt="voltas-logo"
+              />
+            </div>
+            <div class="marquee-second-half">
+              <img
+                src="https://cdn.cogoport.io/cms-prod/vault/original/ais-logo-1.webp"
+                alt="ais-logo"
+              />
+              <img
+                src="https://cdn.cogoport.io/cms-prod/vault/original/jsw-logo-new.webp"
+                alt="jsw-logo"
+              />
+              <img
+                src="https://cdn.cogoport.io/cms-prod/vault/original/bombay-dyeing-logo-1.webp"
+                alt="bombay-dyeing-logo"
+              />
+              <img
+                src="https://cdn.cogoport.io/cms-prod/vault/original/air-asia-logo-1.webp"
+                alt="air-asia-logo"
+              />
+              <img
+                src="https://cdn.cogoport.io/cms-prod/vault/original/tvs-logo-1.webp"
+                alt="tws-logo"
+              />
+              <img
+                src="https://cdn.cogoport.io/cms-prod/vault/original/voltas-logo-1.webp"
+                alt="voltas-logo"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="tagline">
+          <div class="innerContainer">
+            <div class="lh">
+              <h3>Ready to take your Supply Chain to the Next Level?</h3>
+            </div>
+            <a
+              href="https://app.cogoport.com/signup"
+              style="text-decoration: none"
+            >
+              <button>
+                <div
+                  style="
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                  "
+                >
+                  Get Started
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    viewBox="0 0 14 14"
+                    width="1em"
+                    height="1em"
+                    role="img"
+                    style="margin-left: 5px"
+                  >
+                    <path
+                      d="M4.375 1.724a.64.64 0 0 0-.12.045.639.639 0 0 0-.239.319c-.019.073-.026 1.483-.026 4.918 0 4.214.004 4.83.035 4.933a.532.532 0 0 0 .476.358c.199 0 .109.084 2.716-2.518 1.492-1.488 2.489-2.501 2.519-2.557a.533.533 0 0 0 .008-.432c-.054-.106-4.9-4.96-5.008-5.016a.612.612 0 0 0-.361-.05"
+                      fill-rule="evenodd"
+                    ></path>
+                  </svg>
+                </div></button
+            ></a>
+          </div>
+        </div>
+        <div class="how-it-works-section">
+            <h3 class="how-it-works-heading">How it Works</h3>
+            <div class="how-it-works-button-container">
+              <button class="button1">For Cargo Owners</button>
+              <button class="button2" style="border: grey; background-color: #e5dfdf">
+                For Logistics Partners
+              </button>
+            </div>
+            <div class="how-it-works-image-container-1">
+              <div class="how-it-works-image-container-left-part">
+                <div class="stage-container" style="margin-bottom: 120px;">
+                  <div class="stage-number">Stage 1:</div>
+                  <div class="stage-heading">
+                    <img src="/assets//stages-of-work-svgs/stage-1.svg" alt="">
+                    <div style="font-size: 20px; font-weight: 600; padding-left: 8px;">Discover</div>
+                  </div>
+                  <ul class="stage-description">
+                      <li style="padding-bottom: 5px;">Spot and Contract Rates for Logistics</li>
+                      <li style="padding-bottom: 5px;">Service details, Trade Compliance/ Regulatory Requirements</li>
+                      <li style="padding-bottom: 5px;">Knowledge and Insights on Trade, Logistics, Finance, Supply Chains</li>
+                  </ul>
+                </div>
+                <div class="stage-container">
+                  <div class="stage-number">Stage 2:</div>
+                  <div class="stage-heading">
+                    <img src="/assets//stages-of-work-svgs/stage-2.svg" alt="">
+                    <div style="font-size: 20px; font-weight: 600; padding-left: 8px;">Plan & Book</div>
+                  </div>
+                  <ul class="stage-description">
+                      <li style="padding-bottom: 5px;">Route, Service Schedules, Inventory, and Cashflow planning</li>
+                      <li style="padding-bottom: 5px;">Book with upfront visibility of service terms and inclusions</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="how-it-works-image-container-middle-part">
+                <div style="position: absolute; top: 90px; left: 300px;">
+                  <img src="https://cdn.cogoport.io/cms-prod/vault/original/linearrow1.png" alt="yello-arrow" style="width: 150px; height: 60px;">
+                </div>
+                <div style="position: absolute; bottom: 100px; left: 300px;">
+                  <img src="https://cdn.cogoport.io/cms-prod/vault/original/linearrow2.png" alt="yello-arrow" style="width: 150px; height: 60px;">
+                </div>
+                <img src="https://cdn.cogoport.io/cms-prod/vault/original/homepagem1.png" alt="stages-of-work" style="width: 560px; height: 320px;">
+                <div style="position: absolute; top: 90px; right: 300px;">
+                  <img src="https://cdn.cogoport.io/cms-prod/vault/original/linearrow.png" alt="yello-arrow" style="width: 150px; height: 60px;">
+                </div>
+                <div style="position: absolute; bottom: 100px; right: 300px;">
+                  <img src="https://cdn.cogoport.io/cms-prod/vault/original/linearrow4.png" alt="yello-arrow" style="width: 150px; height: 60px;">
+                </div>
+              </div>
+              <div class="how-it-works-image-container-right-part">
+                <div class="stage-container" style="margin-bottom: 120px;">
+                  <div class="stage-number">Stage 3:</div>
+                  <div class="stage-heading">
+                    <img src="/assets//stages-of-work-svgs/stage-3.svg" alt="">
+                    <div style="font-size: 20px; font-weight: 600; padding-left: 8px;">Execute</div>
+                  </div>
+                  <ul class="stage-description">
+                      <li style="padding-bottom: 5px;">Ocean and Air Cargo Tracking</li>
+                      <li style="padding-bottom: 5px;">Documentation and Filings, Handled</li>
+                      <li style="padding-bottom: 5px;">Multi-modal: Smooth coordination and handovers between various service providers and stakeholders</li>
+                  </ul>
+                </div>
+                <div class="stage-container">
+                  <div class="stage-number">Stage 4:</div>
+                  <div class="stage-heading">
+                    <img src="/assets//stages-of-work-svgs/stage-4.svg" alt="">
+                    <div style="font-size: 20px; font-weight: 600; padding-left: 8px;">Finance</div>
+                  </div>
+                  <ul class="stage-description">
+                      <li style="padding-bottom: 5px;">Deferred payment on Logistics with PayLater</li>
+                      <li style="padding-bottom: 5px;">Trade Finance for your Cargo with Export Factoring</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="how-it-works-image-container-2" style="display: none;">
+              <div class="how-it-works-image-container-left-part">
+                <div class="stage-container" style="margin-bottom: 120px;">
+                  <div class="stage-number">Channel Partner Program</div>
+                  <div class="stage-heading">
+                    <img src="/assets//stages-of-work-svgs/stage-1.svg" alt="">
+                    <div style="font-size: 20px; font-weight: 600; padding-left: 8px;">Sell with Cogoport</div>
+                  </div>
+                  <ul class="stage-description">
+                      <li style="padding-bottom: 5px;">Upfront rates and SLAs, close more deals with your customers for end to end shipments</li>
+                      <li style="padding-bottom: 5px;">Knowledge and Insights on Trade, Logistics, Finance, Supply Chains</li>
+                  </ul>
+                </div>
+                <div class="stage-container">
+                  <div class="stage-number">Logistics Partner</div>
+                  <div class="stage-heading">
+                    <img src="/assets//stages-of-work-svgs/grow-profit.svg" alt="">
+                    <div style="font-size: 20px; font-weight: 600; padding-left: 8px;">Grow Profits</div>
+                  </div>
+                  <ul class="stage-description">
+                      <li style="padding-bottom: 5px;">Invoicing and payment terms that help you sell more with the same working capital</li>
+                      <li style="padding-bottom: 5px;">Book with upfront visibility of service terms and inclusions</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="how-it-works-image-container-middle-part">
+                <div style="position: absolute; top: 120px; left: 300px;">
+                  <img src="https://cdn.cogoport.io/cms-prod/vault/original/linearrow1.png" alt="yello-arrow" style="width: 150px; height: 60px;">
+                </div>
+                <div style="position: absolute; bottom: 130px; left: 300px;">
+                  <img src="https://cdn.cogoport.io/cms-prod/vault/original/linearrow2.png" alt="yello-arrow" style="width: 150px; height: 60px;">
+                </div>
+                <img src="https://cdn.cogoport.io/cms-prod/vault/original/homepagem2.png" alt="cogoport platform with rate search" style="width: 560px; height: 320px;">
+                <div style="position: absolute; top: 120px; right: 300px;">
+                  <img src="https://cdn.cogoport.io/cms-prod/vault/original/linearrow.png" alt="yello-arrow" style="width: 150px; height: 60px;">
+                </div>
+                <div style="position: absolute; bottom: 130px; right: 300px;">
+                  <img src="https://cdn.cogoport.io/cms-prod/vault/original/linearrow4.png" alt="yello-arrow" style="width: 150px; height: 60px;">
+                </div>
+              </div>
+              <div class="how-it-works-image-container-right-part">
+                <div class="stage-container" style="margin-bottom: 120px;">
+                  <div class="stage-number">Logistics Service Providers</div>
+                  <div class="stage-heading">
+                    <img src="/assets//stages-of-work-svgs/stage-3.svg" alt="">
+                    <div style="font-size: 20px; font-weight: 600; padding-left: 8px;">Sell to Cogoport</div>
+                  </div>
+                  <ul class="stage-description">
+                      <li style="padding-bottom: 5px;">Accurate forecast of demand so you can plan your operations and cashflows</li>
+                      <li style="padding-bottom: 5px;">Steady flow of bookings from Cogoport, minimize P&L risks</li>
+                      <li style="padding-bottom: 5px;">Get paid on time, minimize collections risks</li>
+                  </ul>
+                </div>
+                <div class="stage-container">
+                  <div class="stage-number">Overseas Partners</div>
+                  <div class="stage-heading">
+                    <img src="/assets//stages-of-work-svgs/scale-globally.svg" alt="">
+                    <div style="font-size: 20px; font-weight: 600; padding-left: 8px;">Scale Globally</div>
+                  </div>
+                  <ul class="stage-description">
+                      <li style="padding-bottom: 5px;">Become Cogoport’s local agent in your country, boost revenue from nominations and handling</li>
+                      <li style="padding-bottom: 5px;">Make Cogoport your local agent outside your home country, do shipments to and from 149+ countries globally</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="industries-served fixed-container">
+            <h3 style="text-align: center;">Industries Served</h3>
+            <div class="industries-images-container">
+                <img src="/assets/images/industries/chemical.svg" style="width: 100px; height: 100px;margin:10px;" alt="chemical-image">
+                <img src="/assets/images/industries/paracetamol.svg" style="width: 100px; height: 100px;margin:10px;" alt="paracetamol-image">
+                <img src="/assets/images/industries/electronics.svg" style="width: 100px; height: 100px;margin:10px;" alt="electronics-image">
+                <img src="/assets/images/industries/whitegoods.svg" style="width: 100px; height: 100px;margin:10px;" alt="whitegoods-image">
+                <img src="/assets/images/industries/textiles.svg" style="width: 100px; height: 100px;margin:10px;" alt="textiles-image">
+                <img src="/assets/images/industries/manufactoring.svg" style="width: 100px; height: 100px;margin:10px;" alt="manufactoring-image">
+                <img src="/assets/images/industries/agriculture.svg" style="width: 100px; height: 100px;margin:10px;" alt="agriculture-image">
+            </div>
+        </div>
+        <div class="signup-container">
+            <div class="signup-inner-container fixed-container">
+                <div class="signup-left-half">
+                    <h2 class="signup-left-heading">Get Started Today</h2>
+                    <p><p>Plan, Book and Finance your shipment in one place.</p>Experience how Cogoport’s Global Trade Platform can Turbocharge your Business.</p>
+                    <a href="" class="signup-button">Get Started</a>
+                </div>
+                <div class="signup-right-half">
+                    <img src="https://cdn.cogoport.io/cms-prod/vault/original/trade-tech-home-1.webp" alt="image">
+                </div>
+            </div>
+        </div>
+        <div class="video-container">
+            <div class="video-thumbnail">
+                <img src="https://cdn.cogoport.io/cms-prod/vault/original/homepage_thumbnail.png" alt="video-thumbnail" style="width: 100%; height: 100%; object-fit: cover;">
+                <div class="video-play-button">
+                    <img src="https://cdn.cogoport.io/cms-prod/vault/original/play-button-white.png" alt="play-button" style="height: 15%;">
+                </div>
+                
+            </div>
+            <div class="video-know-more">
+                <div class="know-more-inner-container fixed-container"></div>
+            </div>
+        </div>
+        <div class="blogs fixed-container">
+          <div class="blogs-inner-container">
+            <h3 class="blogs-heading">Blogs</h3>
+            <div class="all-blogs">
+              <div class="blog-item">
+                <div class="blog-image">
+                  <img src="/assets/images/blog-image-1.jpg" alt="blog-item-1" style="width: 100%; height: 200px; object-fit: cover;">
+                </div>
+                <div class="blog-data">
+                  <h4 class="blog-red-title">Industry Trends</h4>
+                  <div class="blog-black-title">2022: Year in Review</div>
+                  <div class="blog-content-overview">Since mid-2021, issues with semiconductor chip availability have limited the production of a variety of electronic and automobile items.</div>
+                  <div class="blog-read-more-container">
+                    <div class="read-more-button">
+                      Read More
+                      <img src="/assets/red-arrow.svg" alt="red-arrow" style="height: 20px; margin-left: 5px;">
+                    </div>
+                    <div class="blog-date">30 December 2022</div>
+                  </div>
+                </div>
+              </div>
+              <div class="blog-item">
+                <div class="blog-image">
+                  <img src="/assets/images/blog-image-2.jpg" alt="blog-item-1" style="width: 100%; height: 200px; object-fit: cover;">
+                </div>
+                <div class="blog-data">
+                  <h4 class="blog-red-title">Industry Basics</h4>
+                  <div class="blog-black-title">Bullwhip Effect</div>
+                  <div class="blog-content-overview">The firms closest to the consumer will increase inventory in response to rising demand. The front end of the supply chain will reduce inventory when demand declines, compounding the extra inventory on each company further up the supply chain.</div>
+                  <div class="blog-read-more-container">
+                    <div class="read-more-button">
+                      Read More
+                      <img src="/assets/red-arrow.svg" alt="red-arrow" style="height: 20px; margin-left: 5px;">
+                    </div>
+                    <div class="blog-date">30 December 2022</div>
+                  </div>
+                </div>
+              </div>
+              <div class="blog-item">
+                <div class="blog-image">
+                  <img src="/assets/images/blog-image-3.jpg" alt="blog-item-1" style="width: 100%; height: 200px; object-fit: cover;">
+                </div>
+                <div class="blog-data">
+                  <h4 class="blog-red-title">Industry Trends</h4>
+                  <div class="blog-black-title">Switch Bill of Lading</div>
+                  <div class="blog-content-overview">BL must be revised to reflect modifications to the destination ports and the descriptions of the cargo, or in which shippers may wish to omit the supplier's name from the bill.</div>
+                  <div class="blog-read-more-container">
+                    <div class="read-more-button">
+                      Read More
+                      <img src="/assets/red-arrow.svg" alt="red-arrow" style="height: 20px; margin-left: 5px;">
+                    </div>
+                    <div class="blog-date">30 December 2022</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="blog-button">View All</div>
+          </div>
+        </div>
+        <div class="news-letter">
+          <div class="newsletter-upperhalf">
+            <div class="newsletter-design"></div>
+          </div>
+          <div class="newsletter-lowerhalf">
+            <div class="news-letter-image">
+              <img src="/assets/images/newletter-image.png" alt="newsletter" style="width: 100%;">
+            </div>
+            <div class="subscribe-newletter-container">
+              <div class="newsletter-heading">Subscribe to our newsletter now!</div>
+              <div class="newsletter-description">Don’t miss out on the latest happenings at Cogoport.</div>
+              <div class="newsletter-email-container">
+                <form action="" style="display: flex;">
+                  <input class="newsletter-email-input" type="email" placeholder="Enter your email here">
+                  <button class="newsletter-submit-button" type="submit">Subscribe <img src="/assets/red-arrow.svg" alt=""></button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="all-services-and-info">
+        <div class="all-info-inner-container">
+          <div class="info-heading">Products</div>
+          <div class="info-links">
+            <div class="individual-link link-hover" style="margin-top: 8px;">Global Trade Platform</div>
+            <div class="individual-link special-link">Cross-border Logistic</div>
+            <div class="individual-link link-hover">Ocean: FCL</div>
+            <div class="individual-link link-hover">Ocean: LCL</div>
+            <div class="individual-link link-hover">International Air</div>
+            <div class="individual-link link-hover">Customs, CFS, and Handlink</div>
+            <div class="individual-link special-link">Domestic Logistics</div>
+            <div class="individual-link link-hover">Surface: FTL, PTL, Rail</div>
+            <div class="individual-link link-hover">Trailer & Rail Conatiner Haulage</div>
+            
+          </div>
+        </div>
+        <div class="all-info-inner-container">
+          <div class="empty-space"></div>
+          <div class="info-links">
+            <div class="individual-link special-link">Supply Chain Solutions</div>
+          <div class="individual-link link-hover">CogoAssured</div>
+          <div class="individual-link link-hover">Fulfilment Logistics</div>
+          <div class="individual-link link-hover">Door to Door Shipments</div>
+          <div class="individual-link special-link">Financial Services</div>
+          <div class="individual-link link-hover">Pay Later</div>
+          <div class="individual-link link-hover">Export Factoring</div>
+
+          </div>
+        </div>
+        <div class="all-info-inner-container">
+          <div class="info-heading">Partners</div>
+          <div class="info-links">
+            <div class="individual-link link-hover">Global Partner Network</div>
+            <div class="individual-link special-link">Our Logistics Providers</div>
+            <div class="individual-link link-hover">Freight Forwarders</div>
+            <div class="individual-link link-hover">Transporters</div>
+            <div class="individual-link link-hover">Custom Agents</div>
+            <div class="individual-link special-link">Partnership Program</div>
+            <div class="individual-link link-hover">Channel Partners</div>
+            <div class="individual-link link-hover">Overseas Agents</div>
+          </div>
+        </div>
+        <div class="all-info-inner-container">
+          <div class="info-heading">Company</div>
+          <div class="info-links">
+            <div class="individual-link link-hover">About us</div>
+            <div class="individual-link link-hover">Careers</div>
+            <div class="individual-link link-hover">Login</div>
+            <div class="individual-link link-hover">Signup</div>
+          </div>
+        </div>
+        <div class="all-info-inner-container">
+          <div class="info-heading">Knowledge Center</div>
+          <div class="info-links">
+            <div class="individual-link link-hover">Blogs</div>
+            <div class="individual-link link-hover">News & Updates</div>
+            <div class="individual-link link-hover">Events</div>
+            <div class="individual-link link-hover">Reports</div>
+            <div class="individual-link special-link">Resources</div>
+            <div class="individual-link link-hover">Port info</div>
+            <div class="individual-link link-hover">Shipping Terms</div>
+            <div class="individual-link link-hover">Help Center</div>
+            <div class="individual-link link-hover">Incoterms</div>
+          </div>
+        </div>
+      </div>
+      <div class="ports">
+        <div class="ports-container">
+          <div class="port-item">Jawaharlal Nehru (Nhava Sheva) to Jebel Ali</div>
+          <div class="port-item">Mundra to Jebel Ali</div>
+          <div class="port-item">Jawaharlal Nehru (Nhava Sheva) to Colombo</div>
+          <div class="port-item">Mundra to Mombasa</div>
+          <div class="port-item">Shanghai to Jawaharlal Nehru (Nhava Sheva)</div>
+          <div class="port-item">Jawaharlal Nehru (Nhava Sheva) to New York</div>
+          <div class="port-item">Mundra to Dar es Salaam</div>
+        </div>
+        <div class="port-container">
+          <div class="port-item">Jawaharlal Nehru (Nhava Sheva) to Jebel Ali</div>
+          <div class="port-item">Shanghai to Jawaharlal Nehru (Nhava Sheva)</div>
+          <div class="port-item">Ningbo Pt to Jawaharlal Nehru (Nhava Sheva)</div>
+          <div class="port-item">Shenzhen to Jawaharlal Nehru (Nhava Sheva)</div>
+          <div class="port-item">Mundra to Jebel Ali</div>
+          <div class="port-item">Qingdao to Jawaharlal Nehru (Nhava Sheva)</div>
+          <div class="port-item">Shanghai to Chennai</div>
+        </div>
+        <div class="port-container">
+          <div class="port-item">Chhatrapati Shivaji International Airport - INBOM to Dubai International Airport - AEDXB</div>
+          <div class="port-item">Indira Gandhi International Airport - INDEL to Dubai International Airport - AEDXB</div>
+          <div class="port-item">Shanghai Pudong International Airport - CNPVG to Indira Gandhi International Airport - INDEL</div>
+          <div class="port-item">Indira Gandhi International Airport - INDEL to London Heathrow Airport - GBLHR</div>
+          <div class="port-item">Indira Gandhi International Airport - INDEL to John F Kennedy International port</div>
+          <div class="port-item">Shenzhen Bao'an International Airport - CNSZX to Indira Gandhi International Airport - INDEL</div>
+          <div class="port-item">Chek Lap Kok International Airport - HKHKG to Indira Gandhi International Airport - INDEL</div>
+        </div>
+      </div>
+      <div class="bottom-most">
+        <div class="copyright-container">
+          <div class="copyright-block">© 2023 Cogo Universe PTE. All rights reserved.</div>
+          <div class="terms-and-conditions-container">
+            <span class="terms-and-conditions">Terms and Conditions |</span>
+            <span class="terms-and-conditions">Cookie Policy |</span>
+            <span class="terms-and-conditions">Privacy and Data Protection Policy</span>
+          </div>
+        </div>
+        <div class="socials-container">
+          <img src="/assets/socials/linkedin.svg" alt="linkedin">
+          <img src="/assets/socials/facebook.svg" alt="facebook">
+          <img src="/assets/socials/instagram.svg" alt="instagram">
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>
