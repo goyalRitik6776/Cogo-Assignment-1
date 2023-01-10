@@ -1,34 +1,4 @@
-body{
-    font-family:  "PT Sans",sans-serif;
-    font-size: 14px;
-    line-height: 1.5;
-    color: #434343;
-}
-/* footer{
-    font-family:  "PT Sans",sans-serif;
-    font-size: 14px;
-    line-height: 1.5;
-    color: #434343;
-} */
-p{
-    font-size: 16px;
-    margin-top: 0;
-    margin-bottom: 1em;
-}
-h2{
-    font-size: 40px;
-    line-height: 1.2;
-}
-h3{
-    font-size: 28px;
-    line-height: 1.2;
-}
-.fixed-container{
-    width: 1200px;
-    padding: 16px;
-    margin-right: auto;
-    margin-left: auto;
-}
+
 .industries-served{
     /* padding: 16px!important; */
     padding: 16px;
@@ -100,15 +70,48 @@ h3{
     justify-content: center;
     background-color: rgba(0,0,0,.4);
 }
-.video-know-more{
+.video-know-more-section{
     background-color: red;
 }
-.know-more-inner-container{
+.video-know-more-inner-container{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
+.video-know-more-details{
+    display: flex;
+    flex-direction: column;
+    padding: 25px 0;
+}
+.video-know-more-heading{
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: bold;
+    font-family: "Ubuntu",sans-serif;
+    margin-bottom: 10px;
+    color: white;
+}
+.video-know-more-subheading{
+    font-size: 16px;
+    color: white;
+    margin-bottom: 10px;
+}
+.video-know-more-button{
+    background-color:#fbdc00;
+    color: black;
+    min-width: 72px;
+    height: 36px;
+    padding: 4px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 1px solid #dedede;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 5px;
+    font-family: "PT Sans",sans-serif;
+}
 
 .blogs-inner-container{
     display: flex;
@@ -277,180 +280,6 @@ h3{
     margin-left: 5px;
     filter: invert(100%) sepia(6%) saturate(222%) hue-rotate(219deg) brightness(113%) contrast(100%);
 }
-.all-services-and-info{
-    display: flex;
-    /* align-items: flex-start;
-    justify-content: flex-start; */
-    background-color: #fbdc00;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 50px;
-}
-.all-info-inner-container{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: calc(100%/5);
-    /* justify-content: flex-start; */
-}
-.info-heading{
-    margin-top: 20px;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 1.5;
-    text-decoration: underline;
-    margin-bottom: 10px;
-}
-.info-links{
-    display: flex;
-    flex-direction: column;
-    margin-left: -9px;
-}
-.individual-link{
-    margin: 8px;
-}
-.special-link{
-    color: black;
-    font-weight: bold;
-    margin-bottom: 1em;
-}
-.empty-space{
-    display: block;
-    height: 4em;
-}
-.link-hover:hover{
-    text-decoration: underline;
-    cursor: pointer;
-}
-.ports{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 50px 0;
-    background-color: #ebbe00;
-}
-.ports-container{
-    display: flex;
-    flex-direction: column;
-    /* min-width: fit-content; */
-}
-.port-item{
-    cursor: pointer;
-    line-height: 2rem;
-    /* font-family: "PT Sans",sans-serif; */
-}
-.port-item:hover{
-    font-weight: 700;
-    color: #ee3425;
-}
-.bottom-most{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    padding: 8px 30px;
-    background: #ebbe00;
-}
-.copyright-container{
-    display: flex;
-    align-items: center;
-    padding: 10px 0px;
-}
-.copyright-block{
-    margin-left: 10px;
-    font-size: 12px;
-    font-weight: 700;
-    font-family: "Ubuntu",sans-serif;
-    margin-right: 3em;
-}
-.terms-and-conditions-container{
-    display: flex;
-    margin-left: 10px;
-    font-family: "Ubuntu",sans-serif;
-    font-size: 12px;
-    font-weight: 700;
-}
-.terms-and-conditions{
-    color: black;
-    margin-right: 5px;
-    cursor: pointer;
-}
-.terms-and-conditions:hover{
-    text-decoration: underline;
-}
-.socials-container{
-    padding: 8px 30px;
-}
-.socials-container img{
-    cursor: pointer;
-}
 
 
-.navbar{
-    background-color: #fbdc00;  
-    height: 57px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 100;
-    color: black;
-    font-weight: 60;
-    font-family: "Ubuntu",sans-serif;
-    padding: 8px 15px;
-    display: flex;
-    align-items: center;
-}
-.navbar-cogoport-logo{
-    cursor: pointer;
-    margin-left: auto;
-    margin-right: 40px;
 
-}
-.navbar-items-container{
-    display: flex;
-    margin-right: auto;
-    margin-left: auto;
-}
-.navbar-item{
-    display: flex;
-    align-items: center;
-    margin-left: 40px;
-    cursor: pointer;
-}
-.navbar-item:hover{
-    color: red;
-}
-.navbar-item img{
-    width: 15px;
-    height: 10px;
-}
-.navbar-login-signup-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: auto;
-    font-family: "Ubuntu",sans-serif;
-    margin-left: 40px;
-}
-.navbar-login{
-    display: flex;
-    align-items: center;
-    /* margin-right: 16px; */
-    cursor: pointer;
-}
-.navbar-signup{
-    background: red;
-    border: 1px solid red;
-    border-radius: 8px;
-    color: white;
-    height: 36px;
-    padding: 4px 16px;
-    font-family: "Ubuntu",sans-serif;
-    font-size: 14px;
-    font-weight: 600;
-    margin-left: 20px;
-    cursor: pointer;
-}
-.nav-active{
-    background-color: #fff;
-    box-shadow: 0 1px 6px rgb(169 188 218 / 65%);
-}

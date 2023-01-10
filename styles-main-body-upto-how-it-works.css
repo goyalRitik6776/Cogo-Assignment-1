@@ -1,36 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-h1,h2,h3,h4,h5{
-    margin-top: 0;
-    margin-bottom: 1em;
-    color:#000;
-    font-family: "Ubuntu",sans-serif;
-}
-
-/* div{
-    display: block;
-} */
 
 
-.getStarted{
-    /* position: relative; */
+.get-started-section{
     width: 100%;
     padding-top: 57px;
-    /* margin-top: -57px; */
     background: url(https://cdn.cogoport.io/cms-prod/vault/original/home-banner-background-1.webp);
-    /* background-color: var(--color-secondary); */
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: 100%;
     height: 38.5em;
     margin-bottom: 4em;  
 }
-.inner1{
+.get-started-inner-container{
     display: flex;
     align-items: center;
     width: 1200px;
@@ -38,11 +18,11 @@ h1,h2,h3,h4,h5{
     margin-right: auto;
     margin-left: auto;
 }
-.leftOfInner1{
+.get-started-left-half{
     flex: 1 1;
     margin-top: -50px;
 }
-.leftOfInner1 .text{
+.get-started-heading{
     font-size: 40px;
     line-height: 1.2;
     margin-bottom: 20px;
@@ -52,15 +32,14 @@ h1,h2,h3,h4,h5{
     font-family: "Ubuntu",sans-serif;
 
 }
-.leftOfInner1 p{
+.get-started-left-half p{
     margin-bottom: 20px;
     font-size: 16px;
     margin-top: 0;
 }
-.leftOfInner1 .button{
+.get-started-button{
     cursor: pointer;
     background-color: #ee3425;
-    /* text-decoration: none; */
     width: 155px;
     height: 40px;
     text-align: center;
@@ -68,20 +47,19 @@ h1,h2,h3,h4,h5{
     color: white;
     border-radius: 10px;
 }
-.numbers{
+.numbers-section{
     margin-right: auto;
     margin-left: auto;
     width:1200px;
 }
-.inner2{
+.numbers-inner-container{
     display: flex;
-    /* flex-flow: row wrap; */
     align-content:space-between ;
     justify-content: space-between;
     margin-top: 12px;
     margin-left: 15px;
 }
-.inner2 .smallInfo{
+.individual-data{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -90,7 +68,7 @@ h1,h2,h3,h4,h5{
 
     
 }
-.inner2 .smallInfo .text1{
+.individual-data-number{
     color:#ee3425;
     font-size:40px;
     margin-bottom: 5px;
@@ -98,38 +76,37 @@ h1,h2,h3,h4,h5{
     line-height: 1.2;
     font-weight: bold;
 }
-.inner2 .smallInfo .text2{
+.individual-data-description{
     font-size: 16px;
     margin-top: 0;
     margin-bottom: 1em;
     color: #000;
     font-weight: bold;
 }
-.ourProducts{
+.our-products-section{
     margin-top: 90px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-bottom: 40px;
     background: #fffef2;
-    /* height: 300px; */
 }
-.ourProducts .upperHalf{
+.our-products-upper-half{
     padding: 16px;
     display: flex;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
     width: 1200px;
-    /* justify-content: center; */
+    justify-content: center;
 }
-.ourProducts .upperHalf .leftHalf{
+.our-products-upper-half-left-half{
     /* padding-left: 65px; */
     flex:1 1;
     display: flex;
     flex-direction: column;
 }
-.ourProducts .upperHalf .leftHalf .bigText{
+.our-products-upper-half-left-half h2{
     margin-bottom: 10px;
     font-size: 40px;
     line-height: 1.2;
@@ -137,31 +114,31 @@ h1,h2,h3,h4,h5{
     color: black;
     font-family: sans-serif;
 }
-.ourProducts .upperHalf .leftHalf .smallText{
+.our-products-upper-half-left-half p{
     font-size: 18px;
     margin-top: 0;
     margin-bottom: 1em;
     color:#434343;
 }
-.ourProducts .upperHalf .rightHalf{
+.our-products-upper-half-right-half{
     display: flex;
     flex: 1 1;
     justify-content: center;
 
 }
-.ourProducts .upperHalf .rightHalf img{
+.our-products-upper-half-right-half img{
     width: 500px;
     object-fit: contain;
     height: 100%;
 
 }
-.ourProducts .lowerHalf{
+.our-products-lower-half{
     padding: 16px;
     margin-right: auto;
     margin-left: auto;
 
 }
-.ourProducts .lowerHalf .heading{
+.our-products-lower-half .heading{
     text-align: center;
     font-size: 28px;
     line-height: 1.2;
@@ -171,31 +148,30 @@ h1,h2,h3,h4,h5{
     margin-top: 0;
     margin-bottom: 1em;
 }
-.ourProducts .lowerHalf .outerContainer{
+.our-products-lower-half .outerContainer{
     /* background-color: green; */
     display: flex;
     justify-content: space-between;
     /* background: #fffef2; */
 }
 
-.ourProducts .lowerHalf .outerContainer .cardContainer{
+.our-products-cards-container{
     display: flex;
     flex-direction: column;
 }
-.card{
+.row-of-cards{
     display: flex;
     align-items: center;
     margin: 14px 0;
 }
 
-.cardHeading{
+.card-heading{
     width: 300px;
     margin-right: 50px;
     font-size: 24px;
 }
 .multipleCards{
     display: flex;
-    /* flex-wrap: wrap; */
     justify-content: center;
 }
 .card-member{
@@ -234,10 +210,10 @@ h1,h2,h3,h4,h5{
     cursor: pointer;
 }
 
-.brands{
+.brands-section{
     margin-bottom: 50px;
 }
-.brands .heading{
+.brands-section .heading{
     text-align: center;
     font-size: 28px;
     line-height: 1.2;
@@ -252,7 +228,7 @@ h1,h2,h3,h4,h5{
     gap: 0.1rem;
     overflow: hidden;
 }
-.brands .marquee-first-half{
+.marquee-first-half{
     display: flex;
     gap: 0.1rem;
     align-items: center;
@@ -262,7 +238,7 @@ h1,h2,h3,h4,h5{
     animation: move 60s linear infinite;
 
 }
-.brands .marquee-second-half{
+.marquee-second-half{
     display: flex;
     gap: 0.1rem;
     align-items: center;
@@ -275,7 +251,7 @@ h1,h2,h3,h4,h5{
 @keyframes move {
     to { transform: translateX(-100%); }
   }
-.brands .marquee img{
+.marquee img{
     width: 100px;
     height: 100%;
 }
@@ -336,14 +312,6 @@ h1,h2,h3,h4,h5{
     align-items: center;
     justify-content: center;
 }
-/* .innerContainer{
-    margin-bottom: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-} */
-
 .how-it-works-heading{
     font-size: 28px;
     line-height: 1.2;

@@ -1,9 +1,4 @@
 const navbar = document.querySelector('.navbar');
-const button1 = document.querySelector('.button1');
-const button2 = document.querySelector('.button2');
-
-button1.addEventListener("click",activeButton1);
-button2.addEventListener("click",activeButton2);
 
 window.onscroll = () => {
     if (window.scrollY > 0) {
@@ -12,6 +7,14 @@ window.onscroll = () => {
         navbar.classList.remove('nav-active');
     }
 };
+
+
+const button1 = document.querySelector('.button1');
+const button2 = document.querySelector('.button2');
+
+button1.addEventListener("click",activeButton1);
+button2.addEventListener("click",activeButton2);
+
 
 function activeButton1() {
     button1.style.backgroundColor = "#fbdc00";
