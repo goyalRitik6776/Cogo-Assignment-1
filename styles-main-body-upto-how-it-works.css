@@ -1,14 +1,14 @@
 
 
 .get-started-section{
-    background: url(https://cdn.cogoport.io/cms-prod/vault/original/home-banner-background-1.webp);
     width: 100%;
-    background-size: 100%;
-    background-position: 50%;
+    padding-top: 57px;
+    background: url("/assets/images/home-banner-background.webp");
     background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100%;
     height: 38.5em;
     margin-bottom: 4em;  
-    padding-top: 57px;
 }
 .get-started-inner-container{
     display: flex;
