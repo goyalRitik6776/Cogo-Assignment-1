@@ -29,27 +29,3 @@ function activeButton2() {
     document.querySelector('.how-it-works-image-container-1').style.display = "none";
     document.querySelector('.how-it-works-image-container-2').style.removeProperty("display");
 }
-
-// var number = document.querySelector(".individual-data-number");
-// var end = parseInt(number.innerHTML);
-// number.innerHTML = "0";
-// // end = 8000;
-// function timer(){
-//     var newNumber = 0;
-//     timerInterval = setInterval(() => {
-    
-//         // The amount of time passed increments by one
-//         newNumber++;
-//         console.log(newNumber)
-//         console.log(end)
-//         if(newNumber>end){
-//             clearInterval(timerInterval);
-//             return;
-//         }
-//         // The time left label is updated
-//         number.innerHTML = newNumber;
-//       }, 10);
-
-// }
-// timer();
-

@@ -1,8 +1,17 @@
 
 .industries-served{
     padding: 16px;
-    margin-bottom: 50px;
+    margin-bottom: 76px;
     background: #fffef3;
+}
+.industries-served-heading{
+    text-align: center;
+    font-size: 28px;
+    line-height: 1.2;
+    color:#000;
+    font-family: "Ubuntu",sans-serif;
+    font-weight: bold;
+    margin-bottom: 1em;
 }
 .industries-images-container{
     display: flex;
@@ -24,6 +33,16 @@
 }
 .signup-left-heading{
     margin-bottom: 10px;
+    font-size: 40px;
+    line-height: 1.2;
+    color:#000;
+    font-family: "Ubuntu",sans-serif;
+    font-weight: bold;
+}
+.signup-left-half p{
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 1em;
 }
 .signup-button{
     text-decoration: none;
@@ -37,7 +56,6 @@
     cursor: pointer;
     background-color: red;
     border-radius: 8px;
-    /* display: inline-block; */
 }
 .signup-right-half{
     display: flex;
@@ -46,7 +64,6 @@
 }
 .signup-right-half img{
     object-fit: contain;
-    /* display: block; */
     width: 280px;
     height: 360px;
 }
@@ -118,6 +135,11 @@
 }
 .blogs-heading{
     text-align: center;
+    font-size: 28px;
+    margin-bottom: 1em;
+    color:#000;
+    font-family: "Ubuntu",sans-serif;
+    font-weight: bold;
 }
 .all-blogs{
     display: flex;
@@ -128,21 +150,15 @@
     margin-right: 10px;
     margin-bottom: 40px;
     margin-left: 10px;
-    /* overflow: hidden; */
-    /* text-align: start; */
     cursor: pointer;
     border-radius: 8px;
     box-shadow: 0 3px 6px hsl(0deg 0% 79% / 50%);
     display: flex;
     flex-direction: column;
 }
-/* .blog-image{
-
-} */
 .blog-data{
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
     padding: 10px 16px;
 }
 .blog-red-title{
@@ -184,7 +200,6 @@
 .blog-date{
     color: #9a9a9a;
     margin-bottom: 5px;
-    /* font-size: 14px; */
     font-family: "Ubuntu",sans-serif;
     font-weight: bold;
 }
@@ -200,9 +215,7 @@
     color: white;
     border: 1px solid red;
     border-radius: 4px;
-    /* min-width: 72px; */
     height: 36px;
-    /* width: fit-content; */
     padding: 8px 42px;
     font-weight: 700;
 }

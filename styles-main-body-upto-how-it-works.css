@@ -1,14 +1,14 @@
 
 
 .get-started-section{
-    width: 100%;
-    padding-top: 57px;
     background: url(https://cdn.cogoport.io/cms-prod/vault/original/home-banner-background-1.webp);
-    background-repeat: no-repeat;
-    background-position: 50%;
+    width: 100%;
     background-size: 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
     height: 38.5em;
     margin-bottom: 4em;  
+    padding-top: 57px;
 }
 .get-started-inner-container{
     display: flex;
@@ -32,18 +32,20 @@
     font-family: "Ubuntu",sans-serif;
 
 }
-.get-started-left-half p{
+.get-started-description{
     margin-bottom: 20px;
     font-size: 16px;
     margin-top: 0;
+    margin-bottom: 1em;
 }
 .get-started-button{
+    text-align: center;
     cursor: pointer;
     background-color: #ee3425;
     width: 155px;
-    height: 40px;
+    height: 36px;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 7px;
     color: white;
     border-radius: 10px;
     font-weight: bold;
@@ -51,14 +53,15 @@
 .numbers-section{
     margin-right: auto;
     margin-left: auto;
-    width:1200px;
+    width:1170px;
+    margin-bottom: 120px;
 }
 .numbers-inner-container{
     display: flex;
     align-content:space-between ;
     justify-content: space-between;
-    margin-top: 12px;
-    margin-left: 15px;
+    padding-top: 5px;
+    margin-left: 5px;
 }
 .individual-data{
     display: flex;
@@ -102,12 +105,11 @@
     justify-content: center;
 }
 .our-products-upper-half-left-half{
-    /* padding-left: 65px; */
     flex:1 1;
     display: flex;
     flex-direction: column;
 }
-.our-products-upper-half-left-half h2{
+.our-products-upper-half-left-half .bigText{
     margin-bottom: 10px;
     font-size: 40px;
     line-height: 1.2;
@@ -116,7 +118,7 @@
     font-family: "Ubuntu",sans-serif;
     font-weight: bold;
 }
-.our-products-upper-half-left-half p{
+.our-products-upper-half-left-half .smallText{
     font-size: 16px;
     margin-top: 0;
     margin-bottom: 1em;
@@ -132,7 +134,7 @@
     width: 500px;
     object-fit: contain;
     height: 100%;
-
+    margin-left: 80px;
 }
 .our-products-lower-half{
     padding: 16px;
@@ -151,10 +153,8 @@
     margin-bottom: 1em;
 }
 .our-products-lower-half .outerContainer{
-    /* background-color: green; */
     display: flex;
     justify-content: space-between;
-    /* background: #fffef2; */
 }
 
 .our-products-cards-container{
@@ -171,6 +171,11 @@
     width: 300px;
     margin-right: 50px;
     font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 1em;
+    color:#000;
+    font-family: "Ubuntu",sans-serif;
+    font-weight: bold;
 }
 .multipleCards{
     display: flex;
@@ -200,6 +205,9 @@
     font-size: 16px;
     line-height: 1.3em;
     text-align: center;
+    color:#000;
+    font-family: "Ubuntu",sans-serif;
+    font-weight: bold;
 }
 .find-out-more{
     position: absolute;
@@ -223,6 +231,7 @@
     margin-bottom: 1em;
     font-family: "Ubuntu",sans-serif;
     font-weight: bold;
+    color: #000;
 }
 
 .marquee{
@@ -275,7 +284,7 @@
     padding-top: 25px;
     padding-bottom: 25px;
 }
-.tagline .innerContainer .lh h3{
+.tagline-heading{
     margin-bottom: 10px;
     font-size: 28px;
     line-height: 1.2;
@@ -297,8 +306,8 @@
     height: 36px;
     padding: 4px 16px;
     font-family: "PT Sans",sans-serif;
-    font-size: 14px!important;
-    font-weight: 700!important;
+    font-size: 14px;
+    font-weight: 700;
     border-radius: 4px;
     outline: none;
 }
@@ -338,7 +347,7 @@
     margin: 0 20px;
     font-weight: bold;
     font-family:  "PT Sans",sans-serif;
-    color: #000!important;
+    color: #000;
     border-radius: 20px;
     border: #fbdc00;
     background-color: #fbdc00;
@@ -352,7 +361,6 @@
 .how-it-works-image-container-left-part,.how-it-works-image-container-right-part{
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
 }
 .stage-container{
     width: 300px;
@@ -377,7 +385,7 @@
     display: flex;
     flex-direction: column;
     margin-left: 20px;
-    font-stretch: expanded;
+    font-size: 15.5px;
 }
 .how-it-works-image-container-middle-part{
     display: flex;
